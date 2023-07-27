@@ -8,6 +8,8 @@ import { TemplateformComponent } from './templateform/templateform.component';
 import { FormsModule } from '@angular/forms';
 import { ChildComponent } from './components/child/child.component';
 import { ParentComponent } from './components/parent/parent.component';
+import { ChildViewChildComponent } from './components/child-view-child/child-view-child.component';
+import { ParentViewChildComponent } from './components/parent-view-child/parent-view-child.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { ParentComponent } from './components/parent/parent.component';
     TemplateformComponent,
     ChildComponent,
     ParentComponent,
+    ChildViewChildComponent,
+    ParentViewChildComponent,
     
   ],
   imports: [
