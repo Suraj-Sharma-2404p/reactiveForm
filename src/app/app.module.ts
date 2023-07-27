@@ -6,12 +6,16 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { TemplateformComponent } from './templateform/templateform.component';
 import { FormsModule } from '@angular/forms';
+import { ChildComponent } from './components/child/child.component';
+import { ParentComponent } from './components/parent/parent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReactiveformComponent,
     TemplateformComponent,
+    ChildComponent,
+    ParentComponent,
     
   ],
   imports: [

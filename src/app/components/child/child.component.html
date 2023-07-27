@@ -1,0 +1,13 @@
+<div style="border: solid 1px black;padding: 15px;">
+  <h3>Child Component</h3>
+  <br />
+  First Name: {{ firstName }}
+  <br />
+  Last Name: {{ lastName }}
+  <br />
+  Siblings:
+  <br />
+  <span *ngFor="let hobby of hobbies">{{ hobby }}</span>
+  <br/>
+  <button (click)="sendDataToParent()">Send Data to parent</button>
+</div>

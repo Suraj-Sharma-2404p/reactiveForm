@@ -1,0 +1,12 @@
+<div style="border: solid 1px black;padding: 15px;">
+    <h3>Parent Component</h3>
+    <app-child
+    [firstName]="firstName"
+    [lastName]="lastName"
+    [hobbies]="hobbies"
+    (dataToParent)="handleDataFromChild($event)"
+    ></app-child>
+    <br><br><br>
+
+    <span>data getting received from parent component: {{datareceived}}</span>
+</div>
